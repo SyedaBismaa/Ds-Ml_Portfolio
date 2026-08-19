@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "[NAME] | Data Scientist & Machine Learning Enthusiast",
+  title: "Syeda Bisma",
   description:
-    "Portfolio of [NAME], a Data Science and Machine Learning enthusiast building data-driven solutions using Python, SQL, and machine learning.",
+    "Portfolio of Syeda Bisma, a Data Science and Machine Learning enthusiast building data-driven solutions using Python, SQL, and machine learning.",
   keywords: [
     "Data Scientist",
     "Machine Learning",
