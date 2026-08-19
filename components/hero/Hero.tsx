@@ -425,7 +425,7 @@ export function Hero() {
           </MagneticButton>
 
           <MagneticButton
-            href="/resume.pdf"
+            href="/resume/SyedaBisma_Resume.pdf"
             className="
               group
               inline-flex

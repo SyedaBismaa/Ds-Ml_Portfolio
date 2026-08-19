@@ -23,8 +23,8 @@ export const projects: Project[] = [
       "Model comparison across multiple classifiers",
       "Joblib model serialization",
     ],
-    github: "https://github.com",
-    demo: "https://example.com",
+    github: "https://github.com/SyedaBismaa/Loan_Risk_Prediction",
+    demo: "https://loanriskprediction-sybi.streamlit.app/",
     category: "Supervised",
     overview: [
       {
@@ -149,8 +149,8 @@ export const projects: Project[] = [
       "Product recommendation logic for different clusters",
       "Fallback recommendations for new customers",
     ],
-    github: "https://github.com",
-    demo: "https://example.com",
+    github: "https://github.com/SyedaBismaa/Recommendation-System-ML",
+    demo: "https://recommendation-system-ml-tldmkmp6qcegg65onftsro.streamlit.app/",
     category: "Unsupervised",
     overview: [
       {
@@ -275,8 +275,7 @@ export const projects: Project[] = [
       "Skills and qualification-based profiling",
       "Salary opportunity analysis",
     ],
-    github: "https://github.com",
-    demo: "https://example.com",
+    github: "https://github.com/SyedaBismaa/Job_Market_Analysis",
     category: "Data Analysis",
     overview: [
       {
@@ -401,8 +400,7 @@ export const projects: Project[] = [
       "WOE and IV analysis",
       "Customer segmentation for business insight",
     ],
-    github: "https://github.com",
-    demo: "https://example.com",
+    github: "https://github.com/SyedaBismaa/Telecom_Churn_Prediction",
     category: "Deployment",
     overview: [
       {
