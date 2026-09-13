@@ -82,9 +82,13 @@ export function Navbar() {
           <a href="https://www.linkedin.com/in/syeda-bisma-29202428a/" target="_blank" rel="noreferrer" className="text-[0.68rem] font-medium tracking-[0.14em] uppercase text-slate-300 transition hover:text-slate-100">
             LinkedIn
           </a>
+          <a href="https://leetcode.com/u/syedabisma_23/" target="_blank" rel="noreferrer" className="text-[0.68rem] font-medium tracking-[0.14em] uppercase text-slate-300 transition hover:text-slate-100">
+            Leetcode
+          </a>
           <a href="/resume/SyedaBisma_Resume.pdf" className="text-[0.68rem] font-medium tracking-[0.14em] uppercase text-slate-200 transition hover:text-cyan-200">
             Resume
           </a>
+
         </div>
 
         <button

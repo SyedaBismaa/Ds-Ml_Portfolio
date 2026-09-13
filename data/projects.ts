@@ -262,9 +262,9 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "job-recommendation-salary-prediction-system",
+    slug: "salary-prediction-system",
     number: "03",
-    title: "Job Recommendation / Salary Prediction System",
+    title: "Salary Prediction System",
     description:
       "A candidate-focused recommendation system designed to identify higher-paying opportunities based on skills, qualifications, and job attributes.",
     businessContext:
@@ -401,7 +401,7 @@ export const projects: Project[] = [
       "Customer segmentation for business insight",
     ],
     github: "https://github.com/SyedaBismaa/Telecom_Churn_Prediction",
-    category: "Deployment",
+    category: "Data Analysis",
     overview: [
       {
         title: "Overview",
@@ -507,6 +507,142 @@ export const projects: Project[] = [
         content: [
           "The project shows how analytics can uncover churn patterns before they become a larger operational problem.",
           "It also reinforced the importance of interpretable features in business-facing data science work.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "retail-customer-analytics-recommendation-system",
+    number: "05",
+    title: "Retail Customer Analytics & Recommendation System",
+    description:
+      "An end-to-end retail analytics pipeline that turns relational customer and transaction data into customer segments and personalized product recommendations.",
+    businessContext:
+      "Retail teams need a clear view of customer behavior to understand value, identify segments, and recommend relevant products.",
+    technologies: [
+      "Python",
+      "Pandas",
+      "PostgreSQL",
+      "SQL",
+      "PCA",
+      "K-Means",
+      "FP-Growth",
+      "Streamlit",
+    ],
+    highlights: [
+      "Relational customer, product, order, and order-item data model",
+      "Customer segmentation with PCA and K-Means",
+      "Personalized recommendations using association rules",
+      "Streamlit dashboard for customer insights",
+    ],
+    github:
+      "https://github.com/SyedaBismaa/Retail_Customer_Analytics_Recom_System",
+    category: "In Progress",
+    overview: [
+      {
+        title: "Overview",
+        content: [
+          "This project builds a complete Retail Customer Analytics and Recommendation System from data generation through dashboard delivery.",
+          "The pipeline combines Python, PostgreSQL, SQL analytics, machine learning, recommendation rules, and Streamlit.",
+        ],
+      },
+    ],
+    problemStatement: [
+      {
+        title: "Problem Statement",
+        content: [
+          "Retail businesses need to understand customer value and behavior across products and orders.",
+          "The system is designed to turn connected transaction data into useful segments and product recommendations.",
+        ],
+      },
+    ],
+    businessContextDetails: [
+      {
+        title: "Business Context",
+        content: [
+          "Customer-level analytics can support retention, campaign targeting, cross-selling, and more relevant product discovery.",
+          "The final dashboard brings these insights together for practical business use.",
+        ],
+      },
+    ],
+    dataset: [
+      {
+        title: "Dataset",
+        content: [
+          "Realistic relational datasets are generated for Customers, Products, Orders, and Order Items.",
+          "SQL-ready datasets retain original categorical columns, while separate ML-ready datasets contain encoded features.",
+        ],
+      },
+    ],
+    dataCleaning: [
+      {
+        title: "Data Cleaning",
+        content: [
+          "The Python workflow checks missing values, dates, duplicates, outliers, and relational consistency.",
+          "Validation keeps the SQL-ready and ML-ready versions dependable for their respective workflows.",
+        ],
+      },
+    ],
+    exploratoryDataAnalysis: [
+      {
+        title: "Exploratory Data Analysis",
+        content: [
+          "Customer, order, product, and purchasing behavior are explored before feature engineering and segmentation.",
+          "The analytical dataset is moved back into Python for EDA, customer profiling, and RFM analysis.",
+        ],
+      },
+    ],
+    featureEngineering: [
+      {
+        title: "Feature Engineering",
+        content: [
+          "Customer-level metrics include spending, order frequency, products purchased, recency, and related behavior indicators.",
+          "RFM features provide a structured basis for customer value analysis and segmentation.",
+        ],
+      },
+    ],
+    modelSelection: [
+      {
+        title: "Model Selection",
+        content: [
+          "PCA is used to reduce the customer feature space before applying K-Means for customer segmentation.",
+          "FP-Growth and association rules support product recommendation discovery from purchase patterns.",
+        ],
+      },
+    ],
+    evaluation: [
+      {
+        title: "Evaluation",
+        content: [
+          "Customer segments are reviewed for meaningful separation and business interpretability.",
+          "Recommendation rules are assessed for useful product associations and practical relevance.",
+        ],
+      },
+    ],
+    explainability: [
+      {
+        title: "Explainability",
+        content: [
+          "SQL metrics are built with JOINs, GROUP BY, aggregations, CASE WHEN, and CTEs so the business logic remains traceable.",
+          "Window functions including RANK, ROW_NUMBER, and LAG support understandable customer and order behavior analysis.",
+        ],
+      },
+    ],
+    deployment: [
+      {
+        title: "Deployment",
+        content: [
+          "The four SQL-ready datasets are loaded into PostgreSQL as relational tables with primary keys and foreign keys.",
+          "A Streamlit dashboard combines customer insights, segments, and personalized product recommendations.",
+        ],
+      },
+    ],
+    learnings: [
+      {
+        title: "Learnings",
+        content: [
+          "The project brings together data engineering, SQL analytics, machine learning, and recommendation systems in one pipeline.",
+          "It is currently in progress, with the end goal of delivering a complete Python to PostgreSQL to ML to Streamlit workflow.",
         ],
       },
     ],

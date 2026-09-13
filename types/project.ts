@@ -1,4 +1,10 @@
-export type ProjectFilter = "All" | "Supervised" | "Unsupervised" | "Data Analysis" | "Deployment";
+export type ProjectFilter =
+  | "All"
+  | "Supervised"
+  | "Unsupervised"
+  | "Data Analysis"
+  | "Deployment"
+  | "In Progress";
 
 export interface ProjectSection {
   title: string;

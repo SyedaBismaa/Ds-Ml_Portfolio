@@ -11,6 +11,16 @@ export const skillGroups = [
       "Model Evaluation",
     ],
   },
+  {
+    title: "Deep Learning",
+    items: [
+      "ANN",
+      "CNN",
+      "RNN",
+      "LSTM",
+      "GRU",
+    ],
+  },
     {
     title: "Data Science",
     items: [
@@ -19,6 +29,7 @@ export const skillGroups = [
       "Matplotlib",
       "Seaborn",
       "Excel",
+      "PowerBI"
     ],
   },
 

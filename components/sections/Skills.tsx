@@ -15,6 +15,7 @@ const categoryIcons = {
   Programming: Code2,
   "Data Science": BarChart3,
   "Machine Learning": BrainCircuit,
+  "Deep Learning": BrainCircuit,
   Explainability: ShieldCheck,
   Deployment: Server,
   Tools: Wrench,

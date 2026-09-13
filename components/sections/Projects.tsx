@@ -7,7 +7,14 @@ import { ProjectCard } from "@/components/projects/ProjectCard";
 import { projects } from "@/data/projects";
 import type { ProjectFilter } from "@/types/project";
 
-const filters: ProjectFilter[] = ["All", "Supervised", "Unsupervised", "Data Analysis", "Deployment"];
+const filters: ProjectFilter[] = [
+  "All",
+  "Supervised",
+  "Unsupervised",
+  "Data Analysis",
+  "Deployment",
+  "In Progress",
+];
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -15,7 +22,21 @@ export function Projects() {
   const [activeFilter, setActiveFilter] = useState<ProjectFilter>("All");
 
   const visibleProjects = useMemo(() => {
-    if (activeFilter === "All") return projects;
+    if (activeFilter === "All") {
+      return projects.filter(
+        (project) => project.slug !== "retail-customer-analytics-recommendation-system",
+      );
+    }
+
+    if (activeFilter === "Deployment") {
+      return projects.filter(
+        (project) =>
+          project.category === "Deployment" ||
+          project.slug === "loan-risk-prediction-system" ||
+          project.slug === "banking-product-recommendation-system",
+      );
+    }
+
     return projects.filter((project) => project.category === activeFilter);
   }, [activeFilter]);
 
